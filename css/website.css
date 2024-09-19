@@ -52,6 +52,48 @@ li {
     
 }
 
+.personal-projects-bg-img{
+    background-image: url("../images/site_images/Header-Motherboard.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+    padding-top: 14em;
+    padding-bottom: 14rem;
+    color: white;
+    
+}
+
+.wgu-capstone-bg-img{
+    background-image: url("../images/site_images/Header-ThoughtBubble.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+    padding-top: 14em;
+    padding-bottom: 14rem;
+    color: white;
+    
+}
+
+.professional-projects-bg-img{
+    background-image: url("../images/site_images/Header-Servers.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+    padding-top: 14em;
+    padding-bottom: 14rem;
+    color: white;
+    
+}
+
 .page-content {
     background-color: #fdf7f0;
 }
@@ -70,6 +112,12 @@ li {
 
 .project-link {
     color: black;
+}
+
+.centered-figures {
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
 }
 
 #about-list {
