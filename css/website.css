@@ -98,6 +98,12 @@ li {
     
 }
 
+.text-opaq-bg {
+    background-color: #42413C;
+    padding: 5px;
+
+}
+
 .page-content {
     background-color: #fdf7f0;
 }
@@ -116,12 +122,18 @@ li {
 
 .project-link {
     color: black;
+    margin: 0;
+    padding: 0;
 }
 
 .centered-figures {
     justify-content: center;
     text-align: center;
     font-weight: bold;
+}
+
+.img-border {
+    border: 1px solid black;
 }
 
 #about-list {
