@@ -17,8 +17,8 @@ window.addEventListener('load', function() {
         console.log(visits);
     })
 
-    // Display ERR if there are issues getting view count.
+    // Display 0 if there are issues getting view count.
     .catch(error => console.error('Error fetching the page:', error));
-    document.getElementById("resumeviews").textContent = "0000";
+    document.getElementById("resumeviews").textContent = "0";
 
 });
