@@ -6,7 +6,7 @@
 <h2>Back-End</h2>
 <h3>Hosting & Static Website</h3>
 <h4>Blob Storage</h4>
-<p>My spin on the Cloud Resume Challenge is hosted using a Storage Account in Microsoft Azure. Utilizing the static webbsite feature of Blob storage, the contents of this repo are pushed into Blob storage and the contents of the website are displayed.</p>
+<p>My spin on the Cloud Resume Challenge is hosted using a Storage Account in Microsoft Azure. Utilizing the static website feature of Blob storage, the contents of this repo are pushed into Blob storage and the contents of the website are displayed.</p>
 <h4>Azure CDN</h4>
 <p>Using Azure's Content Deliver Network and a custom domain, the website can be accessed at https://www.briansalazar.net.</p>
 <h3>Azure Function & Database</h3>
