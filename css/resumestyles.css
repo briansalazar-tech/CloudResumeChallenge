@@ -4,8 +4,13 @@ body {
 
 h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+}
+
+h3 {
     font-weight: bold;
-    font-size: 6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
 
 p {
@@ -18,75 +23,61 @@ li {
     font-size: 14pt;
 }
 
-.header-color {
-    color: #2b427a;
-}
-
-.hyperlink-style-header {
-    color: #2b427a;
+.res-hyperlink-style-header {
+    color: black;
+    font-weight: bold;
     text-decoration: none;
 }
 
-.hyperlink-style-body {
+.res-hyperlink-style-body {
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
-.exp-dates {
-    color:#2b427a;
+.res-subheader-style {
+    color: #2798F5;
+    font-size: 25px;
     font-weight: bold;
 }
 
-.subheader-text {
+.res-subheader-text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3rem;
 }
 
-.section-header {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-}
-
-.degree {
-    font-weight: bold;
+.res-section-header-font {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-
+    font-weight: bold;
 }
 
-.exp-bullets {
-    padding-left: 40px;
-    padding-right: 20px;
-}
-
-.proj-cert-header {
-    padding-top: 35px;
-}
-
-.proj-spacing {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-#header-line {
-    border: 2px solid #2b427a;
+#res-section-line {
+    border: 2px solid black;
     opacity: 100;
+}
+
+.res-skill-item {
+    font-weight: bold;
+    padding-right: 15px;
+    text-decoration:underline;
+}
+
+.res-dashed-hr {
+    border-top: 2px dashed grey;
 }
 
 #resume-bg{
     background-color: white;
     box-shadow: 5px 5px 5px grey;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 80px;
-    padding-bottom: 50px;
-    margin-top: 4rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* margin-top: 4rem; */
     border: 1px solid grey;
     margin-top: 8rem;
 }
 
-#edu-proj-cert {
-    background-color: #b2cfea;
+#res-edu-proj-cert {
     padding: 25px;
 }
 
@@ -104,4 +95,9 @@ li {
 #res-page-details {
     margin-top: 80px;
     margin-bottom: 50px;
+}
+
+#res-exp-experience {
+    color: lightgrey;
+    font-weight: lighter;
 }
